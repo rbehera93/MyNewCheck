@@ -1,0 +1,117 @@
+1. Can you tell me real time  usages of Trigger?
+Ans :- Trigger is a stored procedure in Database Which automatically invokes whnever a special event in the Databse occurs.
+        Example :-   When a row is inserted into a Specified table or a column is updated.
+
+2. Why Wrapper Classes in java and their real time usages?
+   ANS:   Wrapper classes are used to convert any data type into an object.  The primitive data types are not objects; they do not belong to any class; they are defined in the language itself. Sometimes
+
+3.  Difference between String Buffer and String Builder ?
+   ANS:-  StringBuffer is synchronized that means thread safe. It means two threads can't call the methods of StringBuffer simultaneously. and StringBuilder is non-synchronized that means not thread safe. It means two threads can call the methods of StringBuilder simultaneously.
+
+4. Difference between List and Set in Collection Framework?
+   ANS:-List allows Duplicate and Set Does not aloow Duplicates.
+    The List implementation classes are LinkedList and ArrayList. and The Set implementation classes are TreeSet, HashSet and LinkedHashSet.
+
+5. Differnce between Checked and Umchecked Exception ?
+   ANS:- Checked exceptions are checked by compiler at runtime where as unchecked are handled by using try-catch block.
+
+6. Differnec betwen Statement, Prepared Statement and Callable Statement ?
+  ANS : Statement  –  Used to execute normal SQL queries. 
+        PreparedStatement  –  Used to execute dynamic or parameterized SQL queries.The performance of this interface is very low.
+        CallableStatement  –  Used to execute the stored procedures.The performance of this interface is high.
+
+7. Difference between Jquery and JavaScript ?
+   ANS :- Java Script :- It is Web-Developemnet langusage. It is more time consuming as the whole script is written.
+          Jquery :- it is JS library.It is less time-consuming.
+
+8. Difference between Let and VAR in JS ?
+    ANS :-The difference between them is that var is function scoped and let is block scoped.
+
+9 : Differnec between ID selector and Class Selector ?
+    ANS :In the CSS, a class selector is a name preceded by a full stop (“.”) and an ID selector is a name preceded by a hash character (“#”).
+
+     Ex :-   Id Selector :-   <element id="id_Ram">
+           In CSS Stylesheet:
+             #id_name {
+                // CSS Property
+             }
+   
+Class Selector :- <element class="class_name">
+                     In CSS Stylesheet:
+                  .class {
+                  // CSS Property
+                       }
+
+10. Difference between Procedure and Functions ? 
+  ANS :   Procedure :- as it does not deal with the Expression so procedure is the set of commands, which are executed in a order wise. Is is not called by Function.
+     Function :- As it is deal with Expression so Function is used to calculate something from a given input. It can be call by Procedure 
+
+11. Usages of Generics in Java?
+    ANS :Generics are used for type safety and also for performance.It allows types like Integer,String or even userdefined types to pass as a parameter to classes methods
+
+12.Java7 & 8 featuresmethods and Classes ?
+    ANS :-java 7 & 8 : Functional Interfaces,Default and static methods in Interface,Lambda Expressions,Method References,Stream APIs,OPtional Classes,String Joiners.
+             Functional Interface-> if an Interface can conatain only one abstract method and n number of default and static method then it is called Function Interface.
+              ex->Supplier,Predicate,Consumer etc.
+              
+             Default Method()->this method comes in java8 version by using this method we can add the needed requirement for our implementation class
+                 optional to override this method to implement in implemation class.
+
+              Lambda Expression--> is used to provide the implemention of functional Interface for Name less Functions .it is used to reduces boiler plate code           
+
+
+13. Need of State management ?
+     ANS:-By Using Design-Pattern We can manage the state, with the help of this design pattern we can synchronize the state . This design pattern  handling of data coming from the database very easy.
+
+14.JSP and JSTL tags?
+   ANS :-JSP : JSP as we know is a HTML page with dynamic aspect.We can write the code using JSP tags.
+   JSTL :- It is a Tag libray .Which can be used to Create JSP pages/Files/
+
+15. MVC Represtational?
+  ANS:-MVC :- From Ui-> Dispacter Servlet-> Controller-> View Resolver-> View.
+
+16.Module @QUalifier in MVC?
+   ANS:-Module Qualifier in MVC :- Qualifier is an annotation used to resolve the ammbiguity problem by passing the id if a class is Configured for multiple times.
+
+17 . cost of shared in time of config?
+
+18.  HTML5 & 6 Features?
+     ANS :- html 5 & 6 :-   HTML 5 currently going on  With some new tags but 6 is under Process yet come to Industry.
+                            In Html5 
+                           <Aside>--> We have to use a piece of content that is only realted to the rest Of Page.
+                          <audio> we have represent Audio file.
+                         <datalist> We can use this tag to make combo box for input attribute
+                        <meter> manage a measurement such like as Diks usages.
+                       <wbr> we can use for line break Opporunity.
+                        <Video> we Can create A Video File.
+
+19.   Some if the Selectors in CSS?
+      ANS :- CSS selectors :- Basically  CSS selector selects the HTML element(s) you want to style.
+      Ex :- 1.Simple selectors .
+            2. Combinator selectors.
+            3. Attribute selectors .
+
+20.Can we use jsp as a controller.?
+    Ans :-  Yes We can use JSP as a Controller. but As per Industry standard we Should not define Large amounts of  JAava Codes in a JSP.So Jsp is not Suitable as a Controller.
+
+21. Why Spring is So popular?
+    ANS :- Light Weight: Spring is a lightweight framework because of its POJO implementation.
+           Loose Coupling: Spring applications are loosely coupled because of dependency injection.
+           Dependency Injection: The use of dependency injection makes the easy development of JavaEE.
+           Flexible :- Either we can write XML file or WE can use Annotation.
+           
+21. What is IOC container ?
+   Ans :- In Spring IOC is mechanism where some External Entity is taking care about creating Dependeency objcet for Dependency Injection Mechanism automaically
+          using  Configuration file or using annotation. A class which provides runtime support for other classes ic called as containers. The External Entities are 
+         1. Bean Factory Container.
+         2. ApplicationContext Container.
+
+22. Spring Bean :- Spring Bean is same as POJO class.A Spring bean is an object that form the backbone of your application and that is managed by the Spring IoC container
+     Bean Scopes :-   Singleton, Prototype,Request, Session, Global-Session .
+     Singletone is the Default Scope of Spring Bean.
+     Srong Web MVC :- This Archietecture is Used for Getting Loose Coupling between Business and Presentaion logics of ona Application.
+                      .In Bean ,Business Processing and Database manupulation are DOne .in JSP prestation on the data is Defined..
+                       In servlet, The Control flow logic is defined to manage  beans and JSPs
+
+      
+     
